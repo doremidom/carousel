@@ -1,0 +1,82 @@
+body{
+	font-size: 50px;
+}
+a:hover{
+	color: white;
+	background-color: black;
+}
+div#carousel{
+	width: 600px;
+	height: 600px;
+	background-color: black;
+	margin: auto;
+	overflow: auto;
+}
+div#leftpanel{
+	float: left;
+	width: 320px;
+	height: 100vh;
+	text-align: center;
+	margin-top: 45vh;
+	text-align: right;
+}
+div#rightpanel{
+	float: right;
+	width: 320px;
+	height: 100vh;
+	text-align: center;
+	margin-top: 45vh;
+	text-align: left;
+}
+div#frame{
+	margin: auto;
+	width: 1200px;
+	overflow: none;
+	height: 600px;
+	background-color: violet;
+	display: inline-flex;
+	position: relative;
+	left: 0;
+}
+.pic.active,
+.pic.left,
+.pic.right {
+	
+
+}
+div.dots{
+	width: 200px;
+	height: 100px;
+	display: inline-flex;
+	text-align: center;
+	margin-top: -50px;
+	left: 42%;
+	position: absolute;
+}
+
+
+.circle {
+	border-radius: 50%;
+	width: 15px;
+	height: 15px; 
+	background-color: white;
+	margin: auto;
+	margin-top: 0;
+	/* width and height can be anything, as long as they're equal */
+}
+
+.circle.selected{
+	background-color: red;
+}
+
+div.pic{
+	width: 600px;
+	height: 500px;
+
+}
+
+.transition-right{
+
+}
+
+
